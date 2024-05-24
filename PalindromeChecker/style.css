@@ -1,0 +1,53 @@
+#main {
+  margin: 20px auto;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  width: 50%;
+}
+h6,
+p,
+#result {
+  text-align: center;
+  margin: 0 auto;
+}
+h6 {
+  font-size: 0.9rem;
+}
+p,
+#result {
+  font-size: 0.8rem;
+}
+#result {
+  font-weight: bold;
+  color: #000;
+}
+hr {
+  margin: 20px 0;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+#text-input,
+#check-btn {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#check-btn {
+  background-color: rgba(128, 128, 128, 0.5);
+  cursor: pointer;
+}
+#check-btn:hover {
+  background-color: rgba(128, 128, 128);
+}
