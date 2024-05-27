@@ -1,0 +1,47 @@
+#main {
+  margin: 20px auto;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  width: 50%;
+}
+h6,
+#results-div {
+  text-align: center;
+  margin: 0 auto;
+}
+h6 {
+  font-size: 0.9rem;
+}
+#results-div {
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+#user-input {
+  width: 100%;
+}
+#button-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#user-input,
+#check-btn,
+#clear-btn {
+  padding: 10px;
+  margin: 8px auto;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#check-btn,
+#clear-btn {
+  background-color: rgba(128, 128, 128, 0.5);
+  width: 40%;
+  cursor: pointer;
+}
+#check-btn:hover,
+#clear-btn:hover {
+  background-color: rgba(128, 128, 128);
+}
